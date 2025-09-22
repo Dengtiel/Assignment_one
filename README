@@ -7,7 +7,7 @@ A Python project where I explore **fundamental data types** through a weather mo
 ## 📁 Project Structure
 
 ```
-weather-station-logger/
+Assignment_one/
 ├── README.md
 ├── weather_station_interger.py
 ├── Weather_Station - Strings.py
