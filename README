@@ -34,9 +34,6 @@ Assignment_one/
 | **Lists**        | `Weather_Station - Lists.py`       | ![Lists](screenshots/lists_demo.png)               |
 | **Arrays**       | `Weather_Station - Arrays.py`      | ![Arrays](screenshots/arrays_demo.png)             |
 | **Dictionaries** | `weather_station_ Dictionaries.py` | ![Dictionaries](screenshots/dictionaries_demo.png) |
-
-> **Tip:** Capture the terminal output for each demo and save it in the `screenshots/` folder with the correct filename so the images display properly.
-
 ---
 
 ## Quick Start
@@ -62,7 +59,6 @@ python weather_station_interger.py \
 && python "Weather_Station - Arrays.py" \
 && python "weather_station_ Dictionaries.py"
 ```
-
 ---
 
 ## 📚 What I Learned
