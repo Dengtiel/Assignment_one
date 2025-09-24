@@ -1,0 +1,95 @@
+## 📝 Project Title
+
+**Project 13: Weather Station Logger**
+
+## 🎯 Objectives
+
+* To demonstrate comprehensive understanding of **Python data types**.
+* To apply integers, strings, booleans, lists, arrays, and dictionaries in a **real-world inspired context**.
+* To practice **data processing, condition handling, CRUD operations, and report generation**.
+
+## 📌 Description
+
+The Weather Station Logger simulates a weather monitoring system that processes, analyzes, and reports weather-related data. Each section of the project is dedicated to a **specific Python data type** and showcases its application in solving practical data handling problems.
+
+## 🔍 Methodology
+
+* **Integers**: Calculated totals, averages, min/max readings, and error counts.
+* **Strings**: Formatted structured reports using f-strings and ASCII-art layouts.
+* **Booleans**: Evaluated threshold conditions with compound logic.
+* **Lists**: Added, removed, filtered, and sorted temperature readings.
+* **Arrays**: Demonstrated efficient numeric storage with the `array` module.
+* **Dictionaries**: Built a CRUD-enabled station database with field analysis.
+
+## 📊 Learning Outcomes
+
+By completing this project,I was able to:
+
+1. Apply Python’s **fundamental data types** to real-world problems.
+2. Perform **data aggregation and filtering** using lists and arrays.
+3. Generate **dynamic reports** with string formatting.
+4. Implement **boolean logic** for condition evaluation.
+5. Manage structured records through **dictionary-based databases**.
+6. Integrate all data types into a **comprehensive monitoring system**.
+
+## 🏁 Conclusion
+
+The project successfully demonstrates mastery of Python’s data types in the context of weather monitoring. It provides a **practical, modular, and extensible framework** that reflects real-world data processing systems.
+
+---
+
+
+# 🌦️ Weather Station Logger
+
+## 🚀 Overview
+
+A **Python-based weather monitoring system** that integrates all core data types into a unified application. The program processes daily readings, evaluates system thresholds, manages records, and generates professional reports — simulating how data types power real-world monitoring systems.
+
+## ✨ Features
+
+* 🔢 **Integers**: Compute temperature statistics (total, average, min, max).
+* 📝 **Strings**: Generate formatted reports and summaries.
+* ✅ **Booleans**: Apply threshold conditions with compound logic.
+* 📋 **Lists**: Manage, filter, and sort weather records.
+* 🔢 **Arrays**: Store numeric data efficiently with Python’s `array` module.
+* 🗃️ **Dictionaries**: Implement a CRUD-enabled weather station database.
+
+## 🛠️ Tech Stack
+
+* **Language:** Python 3
+* **Core Modules:** `array`
+
+## 📂 Project Structure
+
+```
+weather_station_logger/
+│── weather_station_logger.py   # Main source file
+│── README.md                   # Documentation
+```
+
+## 🖥️ Usage
+
+Run the program with:
+
+```bash
+python3 weather_station_logger.py
+```
+
+Sample output includes:
+
+* Station summaries 📊
+* Threshold alerts ⚡
+* CRUD database updates 🗃️
+* Final project report 🎯
+
+## 🏆 Key Highlights
+
+* Demonstrates **full spectrum of Python data types**.
+* Well-structured, modular implementation.
+* Academic + practical use cases.
+* Suitable as a **portfolio project** to showcase Python fundamentals.
+
+## 👨‍💻 Author
+
+**Student:** *\Deng Mayen Deng Akol*
+\**Project 13 – Advanced Weather Monitoring System*
