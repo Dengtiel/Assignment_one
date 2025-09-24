@@ -72,10 +72,10 @@ def strings_application(temp_total, temp_average, sensor_total, error_total):
     ║          WEATHER STATION LOGGER          ║
     ║              DAILY REPORT                ║
     ╠══════════════════════════════════════════╣
-    ║ Station: {station_name:<25} ║
-    ║ Period:  {date_range:<25} ║
-    ║ Total Temperature: {temp_total:<14}°F  ║
-    ║ Average Reading: {temp_average:<16}°F  ║
+    ║ Station: {station_name:<25}              ║
+    ║ Period:  {date_range:<25}                ║
+    ║ Total Temperature: {temp_total:<14}°F    ║
+    ║ Average Reading: {temp_average:<16}°F    ║
     ║ System Reliability: {"HIGH" if error_total < 5 else "MODERATE":<13} ║
     ╚══════════════════════════════════════════╝
     """
