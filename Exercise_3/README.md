@@ -4,7 +4,7 @@
 # Rwanda Data Structures – Stack & Queue Solutions
 
 **Course**: Data Structures
-**Institution**: University of Rwanda – Computer Science Department
+**Institution**: University of Rwanda – Business Information Technology Department
 **Author**: Deng Mayen Deng Akol
 
 ---
