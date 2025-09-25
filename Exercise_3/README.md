@@ -95,7 +95,7 @@ The assignment demonstrates how these fundamental data structures can be applied
 ### Run the Program
 
 ```bash
-python rwanda_stack_queue.py
+stack_que_assignment.py
 ```
 
 The program will:
