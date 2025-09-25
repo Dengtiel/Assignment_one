@@ -95,7 +95,7 @@ The assignment demonstrates how these fundamental data structures can be applied
 ### Run the Program
 
 ```bash
-stack_que_assignment.py
+stack_queue_assignment.py
 ```
 
 The program will:
