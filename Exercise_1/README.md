@@ -69,7 +69,7 @@ weather_station_logger/
 Run the program with:
 
 ```bash
-python3 weather_station_logger.py
+python3 weather_station_logger_project13.py
 ```
 
 Expected outputs include:
