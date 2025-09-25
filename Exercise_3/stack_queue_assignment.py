@@ -210,36 +210,6 @@ result = check_balanced_brackets(expression)
 print(f"\n✓ FINAL ANSWER: Expression is {'BALANCED' if result else 'NOT BALANCED'} → {result}")
 stack_answer_3 = result
 
-# ==================
-
-print_question_header("4", "STACK REFLECTION")
-print("Why is stack suitable for temporary storage in problem-solving?")
-
-print_answer_header("Stack Suitability Analysis")
-print("Stack is suitable for temporary storage because:")
-print("\n1. LIFO Principle (Last In, First Out):")
-print("   - Matches natural problem-solving approach")
-print("   - Solve innermost/most recent problems first")
-print("   - Perfect for nested operations")
-
-print("\n2. Automatic Backtracking:")
-print("   - Easy undo operations (like MoMo app)")
-print("   - Natural reversal of operations")
-print("   - Efficient memory management")
-
-print("\n3. Recursive Problem Handling:")
-print("   - Function call management")
-print("   - Nested bracket checking")
-print("   - Expression evaluation")
-
-print("\n4. Memory Efficiency:")
-print("   - O(1) access to most recent data")
-print("   - No need to search through all data")
-print("   - Automatic cleanup of temporary data")
-
-print("\n✓ FINAL ANSWER: Stack's LIFO nature makes it perfect for temporary")
-print("  storage where the most recent data needs to be processed first.")
-
 # ================== QUEUE QUESTIONS ==================
 
 print_question_header("5", "NYABUGOGO TERMINAL - QUEUE OPERATIONS")
@@ -288,82 +258,6 @@ time.sleep(0.8)
 print(f"\n✓ FINAL ANSWER: Who is next? → '{bk_queue.front()}'")
 queue_answer_2 = bk_queue.front()
 
-# ==================
-
-print_question_header("7", "KIGALI BUS EFFICIENCY - QUEUE COMPARISON")
-print("Compare efficiency of linear vs circular queue for rotating buses in Kigali.")
-
-print_answer_header("Linear vs Circular Queue Efficiency Analysis")
-
-print("SCENARIO: Kigali city buses rotating through routes")
-print("Routes: Nyabugogo → Kimisagara → Town → Airport → (repeat)")
-
-print("\n1. LINEAR QUEUE ANALYSIS:")
-print("   Structure: [Route1, Route2, Route3, Route4]")
-print("   Problem after dequeue: [_, _, _, _] ← Empty spaces")
-print("   Memory Usage: WASTEFUL - unused array positions")
-print("   Reset Required: YES - need to shift or recreate array")
-print("   Time Complexity: O(n) for reset operations")
-print("   Space Efficiency: LOW - memory fragmentation")
-
-print("\n2. CIRCULAR QUEUE ANALYSIS:")
-print("   Structure: Circular array with front/rear pointers")
-print("   After operations: Continuous rotation without waste")
-print("   Memory Usage: OPTIMAL - reuses all positions")
-print("   Reset Required: NO - automatic wraparound")
-print("   Time Complexity: O(1) for all operations")
-print("   Space Efficiency: HIGH - 100% memory utilization")
-
-print("\n3. PRACTICAL KIGALI IMPLEMENTATION:")
-print("   ✓ 24/7 bus operations: Circular queue handles continuous rotation")
-print("   ✓ Memory efficiency: Critical for embedded bus systems")
-print("   ✓ Predictable performance: O(1) operations for real-time scheduling")
-print("   ✓ No downtime: No need to reset/reorganize queue")
-
-print("\n✓ FINAL ANSWER: Circular queue is MORE EFFICIENT for rotating")
-print("  Kigali buses due to O(1) operations and zero memory waste.")
-
-# ==================
-
-print_question_header("8", "HOSPITAL FIFO REFLECTION")
-print("Why is FIFO critical in hospitals for non-emergency patients?")
-
-print_answer_header("FIFO Importance in Rwanda Hospitals")
-print("FIFO (First In, First Out) is critical because:")
-
-print("\n1. FAIRNESS & EQUITY:")
-print("   - First-come, first-served principle")
-print("   - No discrimination based on status/wealth")
-print("   - Upholds constitutional right to healthcare")
-print("   - Reflects Ubuntu values of equality")
-
-print("\n2. PATIENT TRUST & SATISFACTION:")
-print("   - Predictable waiting times")
-print("   - Transparent, fair system")
-print("   - Reduces patient anxiety and frustration")
-print("   - Builds confidence in healthcare system")
-
-print("\n3. LEGAL & ETHICAL COMPLIANCE:")
-print("   - Prevents favoritism and corruption")
-print("   - Meets international healthcare standards")
-print("   - Ensures professional medical ethics")
-print("   - Avoids discrimination lawsuits")
-
-print("\n4. OPERATIONAL EFFICIENCY:")
-print("   - Organized patient flow")
-print("   - Prevents conflicts and chaos")
-print("   - Easier staff management")
-print("   - Better resource allocation")
-
-print("\n5. SOCIAL ORDER:")
-print("   - Maintains peace in waiting areas")
-print("   - Prevents queue jumping disputes")
-print("   - Ensures orderly healthcare delivery")
-print("   - Supports community harmony")
-
-print("\n✓ FINAL ANSWER: FIFO ensures fairness, builds trust, maintains")
-print("  order, and upholds ethical healthcare delivery in Rwanda.")
-
 # ================== FINAL SUMMARY ==================
 
 print("\n" + "="*70)
@@ -374,7 +268,6 @@ print(f"\nSTACK QUESTIONS:")
 print(f"1. UR Exam - After 2 pops: {stack_answer_1}")
 print(f"2. MoMo App - Step undone: '{stack_answer_2}'")
 print(f"3. Bracket Check - Is balanced: {stack_answer_3}")
-print(f"4. Stack Reflection: LIFO perfect for temporary storage & backtracking")
 
 print(f"\nQUEUE QUESTIONS:")
 print(f"5. Nyabugogo - Bus at front: '{queue_answer_1}'")
